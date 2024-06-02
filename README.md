@@ -1,7 +1,6 @@
 <div class="mainContainer">
       <div class="sectionLeft">
         <div class="imgContainer">
-          
         </div>
         <h2 class="name">Hi, I’m <span class="nombre">Alberto Aquino</span></h2>
         <h4 class="subtitle">Full Stack Developer.</h4>
@@ -26,21 +25,6 @@
             construir proyectos que no solo sean funcionales, sino también
             elegantes y optimizados.
           </p>
-          <!-- <p class="aboutLittle justificado">¿Qué hago?</p>
-          <ul>
-            <li>
-              Desarrollo Web: Desde la construcción de sitios web responsivos
-              hasta la creación de aplicaciones web complejas, me especializo en
-              tecnologías como HTML, CSS, JavaScript, y frameworks modernos como
-              React, Angular y Vue.js.
-            </li>
-            <li>
-              Aplicaciones Móviles: Me encanta desarrollar aplicaciones móviles
-              que brinden experiencias de usuario excepcionales. Trabajo con
-              tecnologías como React Native y Flutter para crear aplicaciones
-              tanto para iOS como para Android.
-            </li>
-          </ul> -->
         </div>
         <div class="card">
           <h4 class="sectionTitle">About My Skill</h4>
