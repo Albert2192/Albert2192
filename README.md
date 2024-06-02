@@ -1,0 +1,312 @@
+<style>
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+      .mainContainer {
+        display: flex;
+        height: 100vh;
+        /* background-color: #ecf0f3; */
+      }
+      .sectionLeft {
+        display: flex;
+        flex: 1;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* background: green; */
+      }
+      .sectionRigth {
+        display: flex;
+        flex: 1;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        /* background: red; */
+      }
+      .imgContainer {
+        width: 150px;
+        height: 150px;
+        overflow: hidden;
+        border-radius: 50%;
+        border: 5px solid #f2f2f2;
+      }
+      .photo {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+      .name {
+        padding: 10px;
+        font-size: 35px;
+      }
+      .subtitle {
+        margin-top: 5px;
+        font-size: 20px;
+      }
+      .aboutLittle {
+        margin-inline: 40px;
+        text-align: center;
+        margin-top: 10px;
+        font-size: 16px;
+      }
+      .Documents {
+        margin-top: 40px;
+        display: flex;
+        gap: 15px;
+      }
+      .nombre {
+        color: #ff014f;
+      }
+      .skills {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 20px;
+      }
+      .sectionTitle {
+        font-size: 28px;
+        padding: 10px 0px;
+        /* background: red; */
+        width: 100%;
+        text-align: center;
+      }
+      .card {
+        padding: 20px;
+      }
+      .justificado {
+        text-align: justify;
+      }
+      .linea {
+        border-top: 1px solid #000;
+        padding-top: 28px;
+      }
+      .buttom {
+        background: #eeeeee;
+        padding: 10px 35px;
+        border-radius: 3px;
+        text-decoration: none;
+        color: #ff014f;
+        transition: all ease-in-out 0.3s;
+      }
+      .buttom:hover {
+        transform: translateY(-4px);
+        background: #ff014f;
+        color: #f4f4f4;
+      }
+</style>
+
+<div class="mainContainer">
+      <div class="sectionLeft">
+        <div class="imgContainer">
+          <img class="photo" src="./assets/img/photo-bn.jpg" alt="logo" />
+        </div>
+        <h2 class="name">Hi, I’m <span class="nombre">Alberto Aquino</span></h2>
+        <h4 class="subtitle">Full Stack Developer.</h4>
+        <p class="aboutLittle">
+          ¡Hola! Soy Alberto Aquino, un desarrollador web y de aplicaciones
+          móviles de Paraguay, apasionado por la creación de soluciones
+          innovadoras y eficientes.
+        </p>
+        <div class="Documents">
+          <a href="#" class="buttom">My CV</a>
+          <a href="#" class="buttom">Contact</a>
+        </div>
+      </div>
+      <div class="sectionRigth">
+        <div class="card">
+          <h4 class="sectionTitle">About Me</h4>
+          <p class="aboutLittle justificado linea">
+            Mi viaje en el mundo del desarrollo comenzó con una curiosidad
+            insaciable por entender cómo funcionan las tecnologías que usamos a
+            diario. Desde entonces, he dedicado mi tiempo a aprender y dominar
+            diversas herramientas y lenguajes de programación para poder
+            construir proyectos que no solo sean funcionales, sino también
+            elegantes y optimizados.
+          </p>
+          <!-- <p class="aboutLittle justificado">¿Qué hago?</p>
+          <ul>
+            <li>
+              Desarrollo Web: Desde la construcción de sitios web responsivos
+              hasta la creación de aplicaciones web complejas, me especializo en
+              tecnologías como HTML, CSS, JavaScript, y frameworks modernos como
+              React, Angular y Vue.js.
+            </li>
+            <li>
+              Aplicaciones Móviles: Me encanta desarrollar aplicaciones móviles
+              que brinden experiencias de usuario excepcionales. Trabajo con
+              tecnologías como React Native y Flutter para crear aplicaciones
+              tanto para iOS como para Android.
+            </li>
+          </ul> -->
+        </div>
+        <div class="card">
+          <h4 class="sectionTitle">About My Skill</h4>
+          <div class="skills aboutLittle linea">
+            <a
+              href="https://cordova.apache.org/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src="https://www.vectorlogo.zone/logos/apache_cordova/apache_cordova-icon.svg"
+                alt="apachecordova"
+                width="40"
+                height="40"
+              />
+            </a>
+            <a href="https://www.chartjs.org" target="_blank" rel="noreferrer">
+              <img
+                src="https://www.chartjs.org/media/logo-title.svg"
+                alt="chartjs"
+                width="40"
+                height="40"
+              />
+            </a>
+            <a
+              href="https://www.w3schools.com/css/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
+                alt="css3"
+                width="40"
+                height="40"
+              />
+            </a>
+            <a
+              href="https://firebase.google.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg"
+                alt="firebase"
+                width="40"
+                height="40"
+              />
+            </a>
+            <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
+              <img
+                src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"
+                alt="git"
+                width="40"
+                height="40"
+              />
+            </a>
+            <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer">
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
+                alt="html5"
+                width="40"
+                height="40"
+              />
+            </a>
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+                alt="javascript"
+                width="40"
+                height="40"
+              />
+            </a>
+            <a href="https://mariadb.org/" target="_blank" rel="noreferrer">
+              <img
+                src="https://www.vectorlogo.zone/logos/mariadb/mariadb-icon.svg"
+                alt="mariadb"
+                width="40"
+                height="40"
+              />
+            </a>
+            <a href="https://www.mysql.com/" target="_blank" rel="noreferrer">
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg"
+                alt="mysql"
+                width="40"
+                height="40"
+              />
+            </a>
+            <a href="https://nodejs.org" target="_blank" rel="noreferrer">
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
+                alt="nodejs"
+                width="40"
+                height="40"
+              />
+            </a>
+            <a href="https://www.php.net" target="_blank" rel="noreferrer">
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg"
+                alt="php"
+                width="40"
+                height="40"
+              />
+            </a>
+            <a
+              href="https://www.postgresql.org"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg"
+                alt="postgresql"
+                width="40"
+                height="40"
+              />
+            </a>
+            <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
+                alt="react"
+                width="40"
+                height="40"
+              />
+            </a>
+            <a href="https://reactnative.dev/" target="_blank" rel="noreferrer">
+              <img
+                src="https://reactnative.dev/img/header_logo.svg"
+                alt="reactnative"
+                width="40"
+                height="40"
+              />
+            </a>
+            <a href="https://www.sqlite.org/" target="_blank" rel="noreferrer">
+              <img
+                src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg"
+                alt="sqlite"
+                width="40"
+                height="40"
+              />
+            </a>
+            <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer">
+              <img
+                src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg"
+                alt="tailwind"
+                width="40"
+                height="40"
+              />
+            </a>
+            <a
+              href="https://www.typescriptlang.org/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg"
+                alt="typescript"
+                width="40"
+                height="40"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
