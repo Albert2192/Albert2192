@@ -2,7 +2,7 @@
       <div class="sectionLeft">
         <div class="imgContainer">
         </div>
-        <h2 class="name">Hi, I’m <span class="nombre">Alberto Aquino</span></h2>
+        <h2 class="name">Hi, I’m <span class="nombre" style="color: red;">Alberto Aquino</span></h2>
         <h4 class="subtitle">Full Stack Developer.</h4>
         <p class="aboutLittle">
           ¡Hola! Soy Alberto Aquino, un desarrollador web y de aplicaciones
