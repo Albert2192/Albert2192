@@ -9,10 +9,6 @@
           móviles de Paraguay, apasionado por la creación de soluciones
           innovadoras y eficientes.
         </p>
-        <div class="Documents">
-          <a href="#" class="buttom">My CV</a>
-          <a href="#" class="buttom">Contact</a>
-        </div>
       </div>
       <div class="sectionRigth">
         <div class="card">
